@@ -225,6 +225,11 @@ export default function FileUploader() {
             >
               Select File
             </button>
+            
+            <p className="text-sm text-red-500 mt-4">
+              Note: This application requires API keys to be configured in the environment.
+              Please check the documentation for setup instructions.
+            </p>
           </div>
         </div>
         <Footer />
