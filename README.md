@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [日本語版 readme はこちら](./README-ja.md)
 
 # PDF to Markdown
@@ -185,3 +186,6 @@ npm run dev
 ## License
 
 This project is released under the MIT License. See the [LICENSE](./LICENSE) file for details.
+=======
+# pdf2md
+>>>>>>> 2015e8f98a9c4a83c6bf72e758a182d864483145
