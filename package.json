@@ -4,24 +4,15 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:integration": "jest --testMatch=\"**/__tests__/integration/**/*.ts\""
+    "test:integration": "jest --testMatch=\"**/__tests__/integration/**/*.ts\"",
+    "vercel-build": "next build"
   },
-  "scripts": {
-  "dev": "next dev --turbopack",
-  "build": "next build",
-  "start": "next start",
-  "lint": "next lint",
-  "test": "jest",
-  "test:watch": "jest --watch",
-  "test:integration": "jest --testMatch=\"**/__tests__/integration/**/*.ts\"",
-  "vercel-build": "next build"
-},
   "dependencies": {
     "@jest/globals": "^29.7.0",
     "@mistralai/mistralai": "^1.5.1",
